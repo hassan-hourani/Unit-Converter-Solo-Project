@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+}
+
+#container {
+    background-color: #1F2937;
+   
+    font-family: inter;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0;
+}
+
+.to-be-converted {
+    text-align: center;
+    background-image: linear-gradient(45deg, #FB3796, #585DFE);
+    align-self: center;
+    
+    width: 100vw;
+    
+}
+
+.converted {
+    
+    color: white;
+    align-self: center;
+   
+    
+}
+
+.header {
+    color: white;
+}
+
+.number {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.converted h4 {
+    font-weight: 620;
+    text-align: center;
+}
+
+.converted p {
+    color: #D2D2D2;
+    font-weight: 100;
+    text-align: center;
+}
+#number {
+    color: black;
+}
